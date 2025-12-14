@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# AWS credentials
+*.pem
+
+# IDE files
+.vscode/
+.idea/
+
+# Flask debug
+*.log
+
+# Local test files
+test.txt
+fake.jpg
