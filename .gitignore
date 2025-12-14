@@ -1,7 +1,35 @@
-__pycache__/ 
+# Python
+__pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual environment
 venv/
+
+# Environment variables
 .env
-node_modules/
+
+# AWS credentials
+*.pem
+
+# IDE files
 .vscode/
+.idea/
+
+# Flask debug
+*.log
+
+# Local test files
+test.txt
+fake.jpg
+
+# Node / React (frontend)
+node_modules/
+build/
+dist/
+
+# OS files
 .DS_Store
+
