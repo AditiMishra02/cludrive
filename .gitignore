@@ -2,34 +2,25 @@
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
 *.db
 
-# Virtual environment
+# Virtual environments
 venv/
 
 # Environment variables
 .env
 
-# AWS credentials
-*.pem
+# Flask runtime
+instance/
 
-# IDE files
+# Frontend
+node_modules/
+dist/
+build/
+
+# OS
+.DS_Store
 .vscode/
 .idea/
 
-# Flask debug
-*.log
-
-# Local test files
-test.txt
-fake.jpg
-
-# Node / React (frontend)
-node_modules/
-build/
-dist/
-
-# OS files
-.DS_Store
 
